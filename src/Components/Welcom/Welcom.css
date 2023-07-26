@@ -1,0 +1,116 @@
+.MainWelcom
+{
+    display: grid;
+    background-color: #171836;
+}
+
+.Row-1W
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    direction: rtl;
+    border-radius: 25px;
+}
+.Row-2W
+{
+    background-color: rgba(63, 179, 230, 0.60);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    direction: rtl;
+    height: 174px;
+    margin-top: -4em;
+}
+.Col-3W
+{
+    text-align: right;
+}
+.t1
+{
+    color:  #FFF;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.w1
+{
+color: #EF2B2D;
+font-family: Poppins;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-radius: 5px 5px 0px 5px;
+border: 3.5px solid #41BA77;
+}
+.btnget
+{
+border-radius: 12px;
+border: 1px #EF2B2D solid;
+background: #EF2B2D;
+color: #FFF;
+font-family: Cairo;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 288px;
+height: 60px;
+padding: 8px 18px;
+transition: 0.7s;
+}
+.t1,
+.t2,
+.t3
+{
+    text-align: right;
+}
+.t3
+{
+    padding-top: 1em;
+}
+.btnget:hover
+{
+    background-color: #171836;
+    transition: 0.5s;
+    border: 1px #3FB3E6 solid;
+}
+.t4
+{
+    color: #fff;
+    font-family: Cairo;
+    font-size: 30px;
+    font-weight: 900;
+}
+.t6
+{
+    color: #fff;
+    font-family: Cairo;
+    font-size: 15px;
+    font-weight: 900; 
+}
+.t5
+{
+    color: #fff;
+    font-family: Cairo;
+    font-size: 12px;
+    font-weight: 900;
+}
+.iconsocial
+{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+@media (min-width: 250px) and (max-width :1024px)
+{
+.MainWelcom
+{
+    width: 107em;
+}    
+}

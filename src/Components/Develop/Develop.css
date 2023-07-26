@@ -1,0 +1,171 @@
+.MainDevelop
+{
+    display: grid;
+}
+.Row-1D:nth-child(1)
+{
+    color: #000;
+    text-align: center;
+    font-family: Cairo;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.text2
+{
+    color: #EF2B2D;
+font-family: Cairo;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.Row-2D
+{
+    color: #000;
+    text-align: center;
+    font-family: Cairo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Row-1D
+{
+    margin-top: 1em;
+}
+.Row-3D
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+.Center-3D
+{
+    display: flex;
+}
+.leftarr
+{
+    position: relative;
+    top: 2em;
+    left: 1em;
+}
+.rightarr
+{
+    position: relative;
+    right: 11em;
+    top: 4em;
+}
+.leftarr1
+{
+
+}
+.rightarr1
+{
+    position: relative;
+    right: 5em;
+    top: 9em;
+}
+.CardDevelop-LeftUp
+{
+    display: grid;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+    margin: 1em;
+    padding: 1em;
+    position: relative;
+    top: 7em;
+    left: 5em;
+}
+.CardDevelop-RightUp
+{
+    display: grid;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+    margin: 1em;
+    padding: 1em; 
+    position: relative;
+    top: 10em;
+    right: 16em;
+ 
+}
+.CardDevelop-LeftDown
+{
+    display: grid;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+    margin: 1em;
+    padding: 1em;
+    position: relative;
+    top: 14em;
+    left: 4em;
+}
+.CardDevelop-RightDown
+{
+    display: grid;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+    margin: 1em;
+    padding: 1em;
+    position: relative;
+    right: 10em;
+    top: 19em;
+
+}
+.TitleDevelop
+{
+    color: #000;
+text-align: center;
+font-family: Cairo;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.DescDevelop
+{
+    color: #000;
+text-align: center;
+font-family: Cairo;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+@media (min-width: 250px) and (max-width :1024px)
+
+{
+    .CardDevelop-LeftDown
+    {
+        width: 20em;
+    }
+    .CardDevelop-RightUp
+    {
+        width: 20em;
+    }
+        .Row-1D:nth-child(1)
+    {
+        font-size: 4em;
+    }
+    .text2
+    {
+        font-size: 2em;
+    }
+    .Row-2D
+    {
+        font-size: 3em;
+    }
+    .TitleDevelop
+    {
+        font-size: 2.5em;
+    }
+    .DescDevelop
+    {
+        font-weight: 900;
+    }
+}

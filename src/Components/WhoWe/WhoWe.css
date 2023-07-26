@@ -1,0 +1,152 @@
+.MainWhoWe
+{
+    display: grid;
+}
+.Row-1Who
+{
+    padding: 1em;
+    margin: 1em;
+}
+.Row-1Who>h1
+{
+    color: #000;
+    font-family: Cairo;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.text-whowe1
+{
+color: #000;
+font-family: Cairo;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.text-whowe2
+{
+color: #000;
+text-align: right;
+font-family: Cairo;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.Row-2Who
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2em;
+    margin: 2em;
+}
+.CenterSec
+{
+    display: flex;
+    justify-content: space-around;
+}
+.centerpic
+{
+    width: 293px;
+    height: 387px;
+}
+.leftarrow
+{
+width: 211.4px;
+height: 83.355px;
+position: relative;
+top: 1em;
+}
+.rightarrow
+{
+    width: 211.4px;
+    height: 83.355px;
+    position: relative;
+    right: 6em;
+    top: 1em;
+}
+.MainCard
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px  #fff solid ;
+    box-shadow:  1px 1px 3px 3px #E1E1E1;
+    border-radius: 25px;
+    padding: 2em;
+    direction: rtl;
+    transition: 0.7s;
+    
+}
+.numbercard
+{
+    background-color: #EF2B2D;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: relative;
+    bottom: 22px;
+    left: 32px;
+    color: #fff;
+    padding: 10px;
+    font-family: Cairo;
+    font-size: 2em;
+    transition: 0.7s;
+}
+.numbercard-2,
+.textcard
+{
+font-family: Cairo;
+font-weight: 900;
+font-size: 10px;
+}
+
+.LeftSec
+{
+    position: relative;
+    right: 6em;
+}
+.MainCard:hover
+{
+    background-color: #EF2B2D;
+    color: #fff;
+    transition: 0.5s;  
+}
+.MainCard:hover .numbercard
+{
+    color: #EF2B2D;
+    background-color: #fff;
+    transition: 0.5s;
+}
+.iconcard
+{
+    fill: #EF2B2D;
+    transition: 0.7s;
+}
+.MainCard:hover .iconcard
+{
+    fill: #fff;
+    transition: 0.5s;
+}
+@media (min-width: 374px) and (max-width :1024px)
+{
+    .Row-1Who>h1
+    {
+        font-size: 7em;
+    }
+    .text-whowe1
+    {
+        font-size: 3em;
+    }
+    .text-whowe2
+    {
+        font-size: 5em;
+    }
+    .numbercard-2, .textcard {
+        font-family: Cairo;
+        font-weight: 900;
+        font-size: 3em;
+    }
+}

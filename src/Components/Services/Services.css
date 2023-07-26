@@ -1,0 +1,115 @@
+.MainServices
+{
+    display: grid;
+    border-radius: 20px 20px 0px 0px;
+background: #171836;
+}
+.ServicesText
+{
+color: #FFF;
+text-align: right;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.p-ServicesText
+{
+    color: #FFF;
+font-family: Cairo;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: right;
+}
+.Row-1S,
+.Row-2S
+{
+    text-align: right;
+    margin: 1em;
+}
+.Row-3S
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1em;
+    gap: 1em;
+}
+.CardServices
+{
+    border-radius: 12px;
+    background: #FFF;
+    border: 1px #fff solid ;
+    padding: 1em;
+    width: 350px;
+    height: 400px;
+    flex-shrink: 0;
+    display: grid;
+
+}
+.iconofcardservices
+{
+    fill: #EF2B2D;
+    width: 4em;
+    height: 4em;
+}
+.TitleCard
+{
+    color: #000;
+text-align: center;
+font-family: Cairo;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.DescCard
+{
+    color: #000;
+text-align: center;
+font-family: Cairo;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+@media (min-width: 250px) and (max-width :1024px)
+{
+    .MainServices
+    {
+        width: 107em;
+    }
+    .ServicesText
+    {
+        font-size: 8em;
+    }
+    .p-ServicesText
+    {
+        font-size: 3em;
+    }
+    .Row-3S
+    {
+        display: grid;
+        gap: 1em;
+    }
+    .CardServices
+    {
+        width: 55em;
+    }
+    .TitleCard
+    {
+        font-size: 4em;
+    }
+    .DescCard
+    {
+        font-size: 2em;
+    }
+    .iconofcardservices
+    {
+        width: 8em;
+        height: 8em;
+    }
+}

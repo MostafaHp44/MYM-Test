@@ -1,0 +1,115 @@
+.MainSupport
+{
+    display: grid;
+    
+}
+.Line1-Text
+{
+    color: #000;
+text-align: right;
+font-family: Cairo;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.spec
+{
+    color: #EF2B2D;
+font-family: Cairo;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.Line2-Text
+{
+    color: #000;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Line1-Text,
+.Line2-Text
+{
+    text-align: center;
+}
+.Line3-Cards
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1em;
+    margin: 1em;
+    gap: 1em;
+}
+.Line5-Tech
+{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+align-items: center;
+padding: 1em;
+margin: 1em;
+gap: 1em;
+}
+.Row-1Support
+{
+    display: grid;
+    background-image: url('./img/Ellipse\ 13\ \(Stroke\).png');
+    background-repeat: no-repeat;
+    background-position: 20em 10em;
+    background-size: 764px;
+}
+.Row-2Support
+{
+    background-color: #171836;
+    display: grid;
+   
+}
+.Line4-Text
+{
+color: #FFF;
+font-family: Cairo;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: right;
+margin: 1em;
+}
+
+@media (min-width: 250px) and (max-width :1024px)
+{
+    .MainSupport
+    {
+
+        width: 107em;
+    }
+    .Line1-Text
+    {
+        font-size: 5em;
+    }
+    .spec
+    {
+        font-size: 1em;
+    }
+    .Line2-Text
+    {
+        font-size: 3em;
+    }
+    .numbercard-2,
+    .textcard
+    {
+        font-size: 3.5em;
+    }
+    .Line5-Tech
+    {
+        display: grid;
+        gap: 1em;
+    }
+}

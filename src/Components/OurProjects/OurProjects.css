@@ -1,0 +1,58 @@
+.MainOurProjects
+{
+    display: grid;
+    background-color: #171836;
+}
+.LeftImg,
+.RightImg
+{
+    display: grid;
+}
+.Row-1OP
+{
+color: #FFF;
+text-align: right;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 1em;
+}
+.Row-2OP
+{
+ color: #FFF;
+font-family: Cairo;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: right;
+margin: 1em;
+}
+.Row-3OP
+{
+    display: flex;
+    justify-content: space-around;
+}
+.picofpro
+{
+    width: 20em;
+}
+@media (min-width: 250px) and (max-width :1024px)
+{
+    .MainOurProjects
+    {
+        width: 107em;
+    }
+    .Row-1OP
+    {
+        font-size: 5em;
+
+    }
+    .Row-2OP
+    {
+        font-size: 3em;
+    }
+    
+}
