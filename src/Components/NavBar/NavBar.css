@@ -68,7 +68,7 @@ background-color: #000;
 .picofnav
 {
     position: absolute;
-    left: 57em;
+    left: 56.5em;
     top: 0;
 }
 @media (min-width: 250px) and (max-width :1024px)
